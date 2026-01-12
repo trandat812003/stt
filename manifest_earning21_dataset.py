@@ -38,9 +38,9 @@ with open(output_jsonl, "w", encoding="utf-8") as fout:
 
         file_id = os.path.splitext(nlp_file)[0]
         mp3_file = os.path.join(media_dir, f"{file_id}.mp3")
-        mp3_file = os.path.basename(mp3_file)
         if not os.path.exists(mp3_file):
             continue
+        mp3_file = os.path.basename(mp3_file)
 
         # build per-speaker lists
         speakers_dict = {}

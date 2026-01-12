@@ -1,0 +1,22 @@
+{
+    "file_id": "4360366", 
+    "file_path": "4360366.mp3", 
+    "duration": 3906.752, 
+    "sample_rate": 24000, 
+    "company_name": "Travelers Companies Inc", 
+    "financial_quarter": "2", 
+    "sector": "Financial", 
+    "transcript": "",
+    "speakers": {
+        "Abbe Goldstein": [
+            {"token": "Good", "ts": 8.7, "endTs": 8.9}, 
+            {"token": "morning,", "ts": 8.9, "endTs": 9.3}, 
+            {"token": "ladies", "ts": 9.3, "endTs": 9.7}
+        ],
+        "speaker_2": [
+            {"token": "Good", "ts": 8.7, "endTs": 8.9}, 
+            {"token": "morning,", "ts": 8.9, "endTs": 9.3}, 
+            {"token": "ladies", "ts": 9.3, "endTs": 9.7}
+        ]
+    }
+}

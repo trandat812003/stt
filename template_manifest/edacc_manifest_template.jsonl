@@ -1,0 +1,11 @@
+{
+    "file_id": "EDACC-C08-1", 
+    "file_path": "test/EDACC-C08-1.wav", 
+    "transcript": "OKAY I THINK IT'S RECORDING RIGHT", 
+    "sample_rate": 32000, 
+    "speakers": "EDACC-C08-A", 
+    "accent": "Scottish English", 
+    "raw_accent": "Scottish (Fife)", 
+    "gender": "male", 
+    "l1": "Scottish English"
+}

@@ -39,22 +39,22 @@ for split in SPLITS:
             audio = row["audio"]
 
             if isinstance(audio, dict):
-                # wav_bytes = audio["bytes"]
+                wav_bytes = audio["bytes"]
                 audio_name = audio["path"]
             elif isinstance(audio, (bytes, bytearray)):
-                # wav_bytes = audio
+                wav_bytes = audio
                 audio_name = f"{split}_{global_idx[split]}.wav"
             else:
                 raise TypeError(f"Unknown audio type: {type(audio)}")
 
-            # audio_path = AUDIO_DIR / split / audio_name
+            audio_path = AUDIO_DIR / split / audio_name
 
-            # with open(audio_path, "wb") as f:
-            #     f.write(wav_bytes)
+            with open(audio_path, "wb") as f:
+                f.write(wav_bytes)
 
             manifests[split].append({
                 "file_id": os.path.splitext(audio_name)[0],
-                "file_path": f"{split} / {os.path.basename(audio_name)}",
+                "file_path": f"{split}/{os.path.basename(audio_name)}",
                 "transcript": row["transcript"],
                 "sample_rate": row["sampling_rate"],
             })

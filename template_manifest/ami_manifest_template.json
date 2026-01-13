@@ -1,0 +1,16 @@
+{
+    "file_id": "EN2001a", 
+    "file_path": "EN2001a/audio/EN2001a.Headset-0.wav", 
+    "duration": 0.574, 
+    "sample_rate": 16000, 
+    "segment_id": "EN2001a.sync.3", 
+    "start": 5.496, 
+    "end": 6.07, 
+    "transcript": "Okay .", 
+    "speaker": {
+        "A": [
+            {"text": "Okay", "start": 5.57, "end": 5.94}, 
+            {"text": ".", "start": 5.94, "end": 5.94}
+        ]
+    }
+}

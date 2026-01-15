@@ -23,13 +23,13 @@ def get_audio_info(wav_path):
         return None, None
 
 # Lặp qua tất cả file CSV trong thư mục
-for split in ["test"]:
+for split in ["test", "dev"]:
     csv_file = f"/media/trandat/DataVoice/spgispeech/data/meta/{split}.csv"
     manifest_file = csv_file.replace(".csv", "_manifest.jsonl")
     print(f"Processing {csv_file} -> {manifest_file}")
 
     with open(os.path.join(csv_dir, csv_file), newline='', encoding='utf-8') as f_in, \
-         open(manifest_file, "w", encoding='utf-8') as f_out:
+        open(manifest_file, "w", encoding='utf-8') as f_out:
 
         reader = csv.DictReader(f_in, delimiter='|')
         for row in reader:

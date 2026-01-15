@@ -1,0 +1,24 @@
+{
+    "file_id": "close_talk/CT_22.wav", 
+    "file_path": "eval_set/240825.1_eval_full_with_GT/MTG/MTG_32066/close_talk/CT_22.wav", 
+    "duration": 357.993, 
+    "sample_rate": 16000, 
+    "start": 9.2, 
+    "end": 10.41, 
+    "transcript": "Two <ST/> Yeah.", 
+    "speaker": {
+        "Linda": [
+            {"text": "two", "start": 9.25, "end": 10.18}, 
+            {"text": "yeah", "start": 10.2, "end": 10.39}
+        ]
+    }, 
+    "meeting_id": "MTG_32066", 
+    "MtgType": "mtg", 
+    "MeetingDurationSec": 357.992625, 
+    "Room": "ROOM_10033", 
+    "NumParticipants": 3, 
+    "ParticipantAliases": ["Linda", "Beth", "Rachel"], 
+    "Topic": "Private tutoring service - office reorganization", 
+    "Hashtags": "#DebateOverlaps", 
+    "ParticipantAliasToCtDevice": {"Linda": "CT_22", "Beth": "CT_24", "Rachel": "CT_25"}
+}

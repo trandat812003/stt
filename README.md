@@ -1,7 +1,7 @@
 # stt
 
 ```bassh
-export HF_HUB_DISABLE_SYMLINKS=1 && hf download UIT-ViToSA/ViToSA-1.0 --repo-type dataset --local-dir /media/trandat/DataVoice/ViToSA-1.0
+export HF_HOME=/tmp/ViMD && export HF_HUB_DISABLE_SYMLINKS=1 && hf download nguyendv02/ViMD_Dataset --repo-type dataset --local-dir /media/trandat/DataVoice/ViMD
 ```
 
 ```bash
@@ -24,11 +24,9 @@ find . -type f -name "*.tar.gz" -exec sh -c '
 ' sh {} +
 ```
 
-
 ```bash
 cat *.jsonl > all.jsonl
 ```
-
 
 ```bash
 mc mirror /media/trandat/DataVoice/gigaspeech/data/audio/ datnt/ic-smartvoice-vnpt-vn-viewer/asr/data/en/gigaspeech/data

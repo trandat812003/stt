@@ -47,7 +47,7 @@ def build_manifest(tsv_path, audio_root, output_jsonl):
             "file_path": f"{r['split']}/{r['id']}.wav",
             "duration": duration, 
             "sample_rate": sample_rate, 
-            "transcript": r["raw_text"],
+            "text": r["raw_text"],
             "speaker_id": r["speaker_id"],
             "gender": r["gender"],
             "accent": r.get("accent"),

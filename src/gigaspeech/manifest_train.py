@@ -7,10 +7,9 @@ import soundfile as sf
 from tqdm import tqdm
 
 # ================= CONFIG =================
-AUDIO_ROOT = "/media/trandat/DataVoice/spgispeech/data/audio/train"
-META_CSV = "/media/trandat/DataVoice/spgispeech/data/meta/train.csv"
+AUDIO_ROOT = "/media/trandat/DataVoice/gigaspeech/data/audio/xl_files_additional"
 OUT_MANIFEST_DIR = "./train_shards"
-TMP_EXTRACT_DIR = "/tmp/spgispeech_train_extract"
+TMP_EXTRACT_DIR = "/tmp/gigaspeech_train_extract"
 # ========================================
 
 os.makedirs(OUT_MANIFEST_DIR, exist_ok=True)
@@ -25,13 +24,6 @@ def get_audio_info(wav_path):
         print(f"⚠️ Cannot read {wav_path}: {e}")
         return None, None
 
-
-# Load metadata CSV → dict lookup
-meta_map = {}
-with open(META_CSV, newline='', encoding='utf-8') as f:
-    reader = csv.DictReader(f, delimiter='|')
-    for row in reader:
-        meta_map[row["wav_filename"]] = row["transcript"]
 
 tar_files = sorted(f for f in os.listdir(AUDIO_ROOT) if f.endswith(".tar.gz"))
 print(f"Found {len(tar_files)} tar files")
@@ -49,31 +41,30 @@ for tar_name in tqdm(tar_files, desc="Processing train tar files", unit="tar"):
         tar.extractall(TMP_EXTRACT_DIR)
 
     tqdm.write(f"process {tar_name}")
-    with open(shard_path, "w", encoding="utf-8") as fout:
-        for root, _, files in os.walk(TMP_EXTRACT_DIR):
-            for fn in files:
-                check_file = os.path.basename(root) + "/" + fn
-                if not fn.endswith(".wav"):
-                    continue
-                # breakpoint()
-                if check_file not in meta_map:
-                    continue
+    csv_file = tar_path.replace("audio", "metadata").replace("files", "metadata").replace(".tar.gz","_metadata.csv")
+    with open(csv_file, newline='', encoding='utf-8') as f_in, \
+        open(shard_path, "w", encoding="utf-8") as fout:
 
-                wav_path = os.path.join(root, fn)
-                duration, sr = get_audio_info(wav_path)
-                if duration is None:
-                    continue
-
-                entry = {
-                    "file_id": os.path.splitext(check_file)[0],
-                    "file_path": f"train/{check_file}",   # chỉ lưu tên file
-                    "duration": duration,
-                    "sample_rate": sr,
-                    "text": meta_map[check_file]
-                }
-                fout.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
-    # breakpoint()
+        reader = csv.DictReader(f_in, delimiter=',')
+        for row in reader:
+            wav_path = os.path.join(TMP_EXTRACT_DIR, tar_name.replace(".tar.gz", ""), f"{row['sid']}.wav")
+            if not os.path.exists(wav_path):
+                print(f"Warning: {wav_path} không tồn tại, bỏ qua")
+                continue
+            duration, sample_rate = get_audio_info(wav_path)
+            entry = {
+                "file_id": row['aid'], 
+                "file_path": os.path.join("xl_files_additional", tar_name.replace(".tar.gz", ""), f"{row['sid']}.wav"), 
+                "duration": duration, 
+                "sample_rate": sample_rate, 
+                "start": row['begin_time'], 
+                "end": row['end_time'], 
+                "title": row['title'],
+                "source": row["source"],
+                "channels": int(row['channels']),
+                "text": row['text_tn']
+            }
+            fout.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     # 3️⃣ Cleanup
     shutil.rmtree(TMP_EXTRACT_DIR)

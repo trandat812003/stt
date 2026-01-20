@@ -135,7 +135,7 @@ def build_metadata(segments, words, words_xml_path):
             "segment_id": seg["segment_id"],
             "start": seg["start"],
             "end": seg["end"],
-            "transcript": " ".join(w["text"] for w in seg_words),
+            "text": " ".join(w["text"] for w in seg_words),
             "speaker": {
                 speaker: [
                     {

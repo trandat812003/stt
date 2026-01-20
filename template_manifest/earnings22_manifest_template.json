@@ -7,7 +7,7 @@
     "Country by Ticker": "Poland", 
     "Major Dialect Family": "Other", 
     "Ticker Symbol": "OTGLF",
-    "transcript": "",
+    "text": "",
     "speakers": {
         "Abbe Goldstein": [
             {"token": "Good", "ts": 8.7, "endTs": 8.9}, 

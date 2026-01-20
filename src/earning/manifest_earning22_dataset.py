@@ -98,7 +98,7 @@ with open(output_jsonl, "w", encoding="utf-8") as fout:
             "Country by Ticker": meta.get("Country by Ticker"),
             "Major Dialect Family": meta.get("Major Dialect Family"),
             "Ticker Symbol": meta.get("Ticker Symbol"),
-            "transcript": full_transcript,
+            "text": full_transcript,
             "speakers": speaker_output
         }
 

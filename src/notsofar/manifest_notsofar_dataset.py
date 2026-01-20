@@ -38,7 +38,7 @@ for split_dataset in os.listdir(ROOT_DIR):
                         "sample_rate": audio_file[data["ct_wav_file_name"]][1], 
                         "start": data["start_time"], 
                         "end": data["end_time"], 
-                        "transcript": data["text"], 
+                        "text": data["text"], 
                         "speaker": {
                             data["speaker_id"]: [
                                 {"text": word_timing[0], "start": word_timing[1], "end": word_timing[2]} 

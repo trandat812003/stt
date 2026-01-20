@@ -6,7 +6,7 @@
     "company_name": "Travelers Companies Inc", 
     "financial_quarter": "2", 
     "sector": "Financial", 
-    "transcript": "",
+    "text": "",
     "speakers": {
         "Abbe Goldstein": [
             {"token": "Good", "ts": 8.7, "endTs": 8.9}, 

@@ -55,7 +55,7 @@ for split in SPLITS:
             manifests[split].append({
                 "file_id": os.path.splitext(audio_name)[0],
                 "file_path": f"{split}/{os.path.basename(audio_name)}",
-                "transcript": row["transcript"],
+                "text": row["transcript"],
                 "sample_rate": row["sampling_rate"],
             })
 

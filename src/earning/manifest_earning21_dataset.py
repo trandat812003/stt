@@ -102,7 +102,7 @@ with open(output_jsonl, "w", encoding="utf-8") as fout:
             "company_name": meta.get("company_name"),
             "financial_quarter": meta.get("financial_quarter"),
             "sector": meta.get("sector"),
-            "transcript": full_transcript,
+            "text": full_transcript,
             "speakers": speaker_output
         }
 

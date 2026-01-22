@@ -8,12 +8,13 @@ import numpy as np
 from util.fillter_word_vi import check_text
 
 
-PARQUET_DIR = Path("/media/trandat/DataVoice/LSVSC/data")
-OUT_DIR = Path("/media/trandat/Data/LSVSC/output")
+PARQUET_DIR = Path("/media/trandat/DataVoice/floras/multilingual")
+OUT_DIR = Path("/media/trandat/Data/floras/output")
 
 AUDIO_DIR = OUT_DIR / "audio"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 FILES_PER_DIR = 10000
+
 parquet_files = sorted(PARQUET_DIR.glob(f"*.parquet"))
 
 manifests = {
@@ -27,7 +28,12 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
     df = pd.read_parquet(parquet_file)
 
     for _, row in df.iterrows():
-        text = row["transcription"]
+        lang = row["language"]
+
+        if lang != 'vi': 
+            continue
+
+        text = row["text"]
         audio = row["audio"]
 
         if isinstance(audio, dict):
@@ -72,14 +78,12 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
 
         entry = {}
         for col in df.columns:
-            if col == "audio":
-                continue
-            if col == "transcription":
+            if col in ["audio", "text", 'id', "translation", "language"]:
                 continue
             entry[col] = row[col]
 
         entry.update({
-            "file_id": audio_name,
+            "file_id": row["id"],
             "file_path": f"{subdir}/{audio_path}",
             "text": text,
             "sample_rate": sr,
@@ -91,7 +95,7 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
         else:
             manifests["cs"].append(entry)
 
-        audio_name += 1
+        audio_name = audio_name + 1
 
 
 def save_manifest(entries, path):
@@ -106,7 +110,7 @@ for split, entries in manifests.items():
     if not entries:
         continue
 
-    out_path = MANIFEST_DIR / f"lsvsc_{split}.jsonl"
+    out_path = MANIFEST_DIR / f"floras_{split}.jsonl"
     save_manifest(entries, out_path)
     print(f"Saved {len(entries)} entries to {out_path}")
 

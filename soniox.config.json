@@ -1,0 +1,58 @@
+{
+    "model": "stt-async-v3",
+    "language_hints": [
+        "en",
+        "es"
+    ],
+    "enable_language_identification": true,
+    "enable_speaker_diarization": true,
+    "context": {
+        "general": [
+            {
+                "key": "domain",
+                "value": "Healthcare"
+            },
+            {
+                "key": "topic",
+                "value": "Diabetes management consultation"
+            },
+            {
+                "key": "doctor",
+                "value": "Dr. Martha Smith"
+            },
+            {
+                "key": "patient",
+                "value": "Mr. David Miller"
+            },
+            {
+                "key": "organization",
+                "value": "St John's Hospital"
+            }
+        ],
+        "text": "Mr. David Miller visited his healthcare provider last month for a routine follow-up related to diabetes care. The clinician reviewed his recent test results, noted improved glucose levels, and adjusted his medication schedule accordingly. They also discussed meal planning strategies and scheduled the next check-up for early spring.",
+        "terms": [
+            "Celebrex",
+            "Zyrtec",
+            "Xanax",
+            "Prilosec",
+            "Amoxicillin Clavulanate Potassium"
+        ],
+        "translation_terms": [
+            {
+                "source": "Mr. Smith",
+                "target": "Sr. Smith"
+            },
+            {
+                "source": "St John's",
+                "target": "St John's"
+            },
+            {
+                "source": "stroke",
+                "target": "ictus"
+            }
+        ]
+    },
+    "client_reference_id": "MyReferenceId",
+    "audio_url": null,
+    "file_id": "1860fb1a-14c5-450a-aea1-b3e934ffef31"
+}

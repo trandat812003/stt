@@ -1,0 +1,1564 @@
+{
+    "id": "431c64be-9184-48d4-8e34-a86b780222cb",
+    "text": "Tụi mình về đi. Hạnh Chi nói nhỏ.",
+    "tokens": [
+        {
+            "text": "T",
+            "start_ms": 180,
+            "end_ms": 240,
+            "confidence": 0.9405422210693359,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ụ",
+            "start_ms": 240,
+            "end_ms": 300,
+            "confidence": 0.9952942728996277,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "i",
+            "start_ms": 300,
+            "end_ms": 360,
+            "confidence": 0.9995958209037781,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 360,
+            "end_ms": 420,
+            "confidence": 0.999840497970581,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " về",
+            "start_ms": 480,
+            "end_ms": 540,
+            "confidence": 0.9999021291732788,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " đ",
+            "start_ms": 720,
+            "end_ms": 780,
+            "confidence": 0.9962248802185059,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "i.",
+            "start_ms": 1020,
+            "end_ms": 1080,
+            "confidence": 0.8516706824302673,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " H",
+            "start_ms": 1440,
+            "end_ms": 1500,
+            "confidence": 0.9252559542655945,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ạnh",
+            "start_ms": 1500,
+            "end_ms": 1560,
+            "confidence": 0.999738872051239,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Chi",
+            "start_ms": 1680,
+            "end_ms": 1740,
+            "confidence": 0.9287963509559631,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " nó",
+            "start_ms": 1860,
+            "end_ms": 1920,
+            "confidence": 0.9998136162757874,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "i",
+            "start_ms": 1920,
+            "end_ms": 1980,
+            "confidence": 0.9972296357154846,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " nh",
+            "start_ms": 1980,
+            "end_ms": 2040,
+            "confidence": 0.9999056458473206,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ỏ",
+            "start_ms": 2040,
+            "end_ms": 2040,
+            "confidence": 0.9998658299446106,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": ".",
+            "start_ms": 2040,
+            "end_ms": 2040,
+            "confidence": 0.9797421097755432,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        }
+    ]
+},
+{
+    "id": "af0f2bb1-5543-4c61-b8a2-5f7c8ae65cf3",
+    "text": "Tổng Giám đốc Tổ chức Y tế Thế giới Terence Adhanom Ghebreyesus cho biết.",
+    "tokens": [
+        {
+            "text": "Tổ",
+            "start_ms": 180,
+            "end_ms": 240,
+            "confidence": 0.9996243715286255,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ng",
+            "start_ms": 300,
+            "end_ms": 360,
+            "confidence": 0.999971866607666,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Gi",
+            "start_ms": 360,
+            "end_ms": 420,
+            "confidence": 0.8174206614494324,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ám",
+            "start_ms": 420,
+            "end_ms": 480,
+            "confidence": 0.9999634027481079,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " đ",
+            "start_ms": 480,
+            "end_ms": 540,
+            "confidence": 0.6507251262664795,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ốc",
+            "start_ms": 540,
+            "end_ms": 600,
+            "confidence": 0.9999911785125732,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Tổ",
+            "start_ms": 660,
+            "end_ms": 720,
+            "confidence": 0.9892627596855164,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " chức",
+            "start_ms": 780,
+            "end_ms": 840,
+            "confidence": 0.9851418733596802,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Y",
+            "start_ms": 900,
+            "end_ms": 960,
+            "confidence": 0.9969978332519531,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " tế",
+            "start_ms": 1020,
+            "end_ms": 1080,
+            "confidence": 0.999778687953949,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Th",
+            "start_ms": 1200,
+            "end_ms": 1260,
+            "confidence": 0.9967769980430603,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ế",
+            "start_ms": 1260,
+            "end_ms": 1320,
+            "confidence": 0.9999358654022217,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " giới",
+            "start_ms": 1320,
+            "end_ms": 1380,
+            "confidence": 0.5301015973091125,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Ter",
+            "start_ms": 1620,
+            "end_ms": 1680,
+            "confidence": 0.8032156229019165,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ence",
+            "start_ms": 1800,
+            "end_ms": 1860,
+            "confidence": 0.21380245685577393,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Ad",
+            "start_ms": 1980,
+            "end_ms": 2040,
+            "confidence": 0.5793544054031372,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "han",
+            "start_ms": 2160,
+            "end_ms": 2220,
+            "confidence": 0.9972299933433533,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "om",
+            "start_ms": 2280,
+            "end_ms": 2340,
+            "confidence": 0.993070125579834,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " G",
+            "start_ms": 2520,
+            "end_ms": 2580,
+            "confidence": 0.9561225175857544,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "he",
+            "start_ms": 2580,
+            "end_ms": 2640,
+            "confidence": 0.9889304637908936,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "bre",
+            "start_ms": 2700,
+            "end_ms": 2760,
+            "confidence": 0.9906893968582153,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "yes",
+            "start_ms": 2820,
+            "end_ms": 2880,
+            "confidence": 0.8981148600578308,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "us",
+            "start_ms": 3000,
+            "end_ms": 3060,
+            "confidence": 0.9984985589981079,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " cho",
+            "start_ms": 3060,
+            "end_ms": 3120,
+            "confidence": 0.9988520741462708,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " bi",
+            "start_ms": 3120,
+            "end_ms": 3120,
+            "confidence": 0.9999706149101257,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ế",
+            "start_ms": 3120,
+            "end_ms": 3120,
+            "confidence": 0.9995067715644836,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "t.",
+            "start_ms": 3120,
+            "end_ms": 3120,
+            "confidence": 0.9997847676277161,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        }
+    ]
+},
+{
+    "id": "ffb40859-5fbd-47c4-99d8-4b9ce93110b5",
+    "text": "Qua nghiên cứu được công bố mới đây của Bộ Y tế và Tổ chức Y tế Thế giới (WHO).",
+    "tokens": [
+        {
+            "text": "Q",
+            "start_ms": 540,
+            "end_ms": 600,
+            "confidence": 0.965229868888855,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ua",
+            "start_ms": 600,
+            "end_ms": 660,
+            "confidence": 0.9962795376777649,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " nghi",
+            "start_ms": 720,
+            "end_ms": 780,
+            "confidence": 0.9996914863586426,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ên",
+            "start_ms": 780,
+            "end_ms": 840,
+            "confidence": 0.9999276399612427,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " cứ",
+            "start_ms": 900,
+            "end_ms": 960,
+            "confidence": 0.9999533891677856,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "u",
+            "start_ms": 960,
+            "end_ms": 1020,
+            "confidence": 0.999985933303833,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " được",
+            "start_ms": 1080,
+            "end_ms": 1140,
+            "confidence": 0.9997683167457581,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " công",
+            "start_ms": 1200,
+            "end_ms": 1260,
+            "confidence": 0.9999760389328003,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " b",
+            "start_ms": 1320,
+            "end_ms": 1380,
+            "confidence": 0.9999574422836304,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ố",
+            "start_ms": 1380,
+            "end_ms": 1440,
+            "confidence": 0.9999586343765259,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 1500,
+            "end_ms": 1560,
+            "confidence": 0.9999313354492188,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ới",
+            "start_ms": 1560,
+            "end_ms": 1620,
+            "confidence": 0.9999502897262573,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " đ",
+            "start_ms": 1680,
+            "end_ms": 1740,
+            "confidence": 0.999993085861206,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ây",
+            "start_ms": 1740,
+            "end_ms": 1800,
+            "confidence": 0.9998607635498047,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " của",
+            "start_ms": 1860,
+            "end_ms": 1920,
+            "confidence": 0.9999579191207886,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Bộ",
+            "start_ms": 2040,
+            "end_ms": 2100,
+            "confidence": 0.9967965483665466,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Y",
+            "start_ms": 2220,
+            "end_ms": 2280,
+            "confidence": 0.9998408555984497,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " tế",
+            "start_ms": 2340,
+            "end_ms": 2400,
+            "confidence": 0.9321311712265015,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " và",
+            "start_ms": 2520,
+            "end_ms": 2580,
+            "confidence": 0.9982900023460388,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Tổ",
+            "start_ms": 2760,
+            "end_ms": 2820,
+            "confidence": 0.9173504710197449,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " chức",
+            "start_ms": 2940,
+            "end_ms": 3000,
+            "confidence": 0.9887838959693909,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Y",
+            "start_ms": 3120,
+            "end_ms": 3180,
+            "confidence": 0.9989451766014099,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " tế",
+            "start_ms": 3240,
+            "end_ms": 3300,
+            "confidence": 0.9934238791465759,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Th",
+            "start_ms": 3420,
+            "end_ms": 3480,
+            "confidence": 0.9874190092086792,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ế",
+            "start_ms": 3480,
+            "end_ms": 3540,
+            "confidence": 0.9998828172683716,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " giới",
+            "start_ms": 3540,
+            "end_ms": 3600,
+            "confidence": 0.9891381859779358,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " (W",
+            "start_ms": 3720,
+            "end_ms": 3780,
+            "confidence": 0.9397668838500977,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "H",
+            "start_ms": 3900,
+            "end_ms": 3960,
+            "confidence": 0.99918133020401,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "O",
+            "start_ms": 3960,
+            "end_ms": 3960,
+            "confidence": 0.9996284246444702,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": ").",
+            "start_ms": 3960,
+            "end_ms": 3960,
+            "confidence": 0.9988744854927063,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        }
+    ]
+},
+{
+    "id": "1315d060-4123-4361-bfba-12a6e57cb4d9",
+    "text": "Mình mượn trung tâm American Center, mình mượn cả bên Trường Gia Lai, mình mượn cả bên Kitco, tức là ai quen. Ừ, khi mà mình làm việc ấy, mình có rất là nhiều những người quen mới, và rất là may mắn khi mà mình quen được những người tốt.",
+    "tokens": [
+        {
+            "text": "M",
+            "start_ms": 300,
+            "end_ms": 360,
+            "confidence": 0.9993856549263,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ình",
+            "start_ms": 360,
+            "end_ms": 420,
+            "confidence": 0.9999797344207764,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 480,
+            "end_ms": 540,
+            "confidence": 0.9994477033615112,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ượ",
+            "start_ms": 540,
+            "end_ms": 600,
+            "confidence": 0.9993554949760437,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "n",
+            "start_ms": 600,
+            "end_ms": 660,
+            "confidence": 0.9999295473098755,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " trung",
+            "start_ms": 720,
+            "end_ms": 780,
+            "confidence": 0.8048466444015503,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " t",
+            "start_ms": 840,
+            "end_ms": 900,
+            "confidence": 0.9999140501022339,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "âm",
+            "start_ms": 900,
+            "end_ms": 960,
+            "confidence": 0.9995834231376648,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " American",
+            "start_ms": 1080,
+            "end_ms": 1140,
+            "confidence": 0.9627719521522522,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Cent",
+            "start_ms": 1500,
+            "end_ms": 1560,
+            "confidence": 0.8389222025871277,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "er,",
+            "start_ms": 1680,
+            "end_ms": 1740,
+            "confidence": 0.9509580135345459,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 1920,
+            "end_ms": 1980,
+            "confidence": 0.9997780323028564,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 2100,
+            "end_ms": 2160,
+            "confidence": 0.9999672174453735,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ượ",
+            "start_ms": 2160,
+            "end_ms": 2220,
+            "confidence": 0.9999852180480957,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "n",
+            "start_ms": 2220,
+            "end_ms": 2280,
+            "confidence": 0.999994158744812,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " cả",
+            "start_ms": 2460,
+            "end_ms": 2520,
+            "confidence": 0.9999351501464844,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " b",
+            "start_ms": 2700,
+            "end_ms": 2760,
+            "confidence": 0.9998295903205872,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ên",
+            "start_ms": 2820,
+            "end_ms": 2880,
+            "confidence": 0.9999798536300659,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Tr",
+            "start_ms": 3300,
+            "end_ms": 3360,
+            "confidence": 0.38719168305397034,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ường",
+            "start_ms": 3360,
+            "end_ms": 3420,
+            "confidence": 0.9954221844673157,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Gia",
+            "start_ms": 3600,
+            "end_ms": 3660,
+            "confidence": 0.97541743516922,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " L",
+            "start_ms": 3780,
+            "end_ms": 3840,
+            "confidence": 0.9968513250350952,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ai,",
+            "start_ms": 3840,
+            "end_ms": 3900,
+            "confidence": 0.99167400598526,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 4500,
+            "end_ms": 4560,
+            "confidence": 0.9998682141304016,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 4740,
+            "end_ms": 4800,
+            "confidence": 0.9999775886535645,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ượ",
+            "start_ms": 4800,
+            "end_ms": 4860,
+            "confidence": 0.9999797344207764,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "n",
+            "start_ms": 4860,
+            "end_ms": 4920,
+            "confidence": 0.9999964237213135,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " cả",
+            "start_ms": 4980,
+            "end_ms": 5040,
+            "confidence": 0.9999945759773254,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " b",
+            "start_ms": 5220,
+            "end_ms": 5280,
+            "confidence": 0.9996774792671204,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ên",
+            "start_ms": 5280,
+            "end_ms": 5340,
+            "confidence": 0.9999842643737793,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " Kit",
+            "start_ms": 5460,
+            "end_ms": 5520,
+            "confidence": 0.543357253074646,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "c",
+            "start_ms": 5700,
+            "end_ms": 5760,
+            "confidence": 0.3198975622653961,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "o,",
+            "start_ms": 5760,
+            "end_ms": 5820,
+            "confidence": 0.7893862724304199,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " t",
+            "start_ms": 5880,
+            "end_ms": 5940,
+            "confidence": 0.9998230338096619,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ức",
+            "start_ms": 5940,
+            "end_ms": 6000,
+            "confidence": 0.9999426603317261,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " là",
+            "start_ms": 6060,
+            "end_ms": 6120,
+            "confidence": 0.9999744892120361,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " ai",
+            "start_ms": 6240,
+            "end_ms": 6300,
+            "confidence": 0.9918477535247803,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " qu",
+            "start_ms": 6540,
+            "end_ms": 6600,
+            "confidence": 0.9991368651390076,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "en.",
+            "start_ms": 6660,
+            "end_ms": 6720,
+            "confidence": 0.9843920469284058,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " ",
+            "start_ms": 7620,
+            "end_ms": 7680,
+            "confidence": 0.8450304269790649,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "Ừ",
+            "start_ms": 7740,
+            "end_ms": 7920,
+            "confidence": 0.9982205629348755,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": ",",
+            "start_ms": 7920,
+            "end_ms": 7980,
+            "confidence": 0.9620168805122375,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " khi",
+            "start_ms": 7980,
+            "end_ms": 8040,
+            "confidence": 0.9997349381446838,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mà",
+            "start_ms": 8100,
+            "end_ms": 8160,
+            "confidence": 0.9999891519546509,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 8160,
+            "end_ms": 8220,
+            "confidence": 0.9999966621398926,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " làm",
+            "start_ms": 8340,
+            "end_ms": 8400,
+            "confidence": 0.9998860359191895,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " việc",
+            "start_ms": 8520,
+            "end_ms": 8580,
+            "confidence": 0.9994654059410095,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " ",
+            "start_ms": 8760,
+            "end_ms": 8820,
+            "confidence": 0.9855578541755676,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ấ",
+            "start_ms": 8820,
+            "end_ms": 8880,
+            "confidence": 0.9994469285011292,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "y,",
+            "start_ms": 8880,
+            "end_ms": 8940,
+            "confidence": 0.976764976978302,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 8940,
+            "end_ms": 9000,
+            "confidence": 0.9999819993972778,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " có",
+            "start_ms": 9120,
+            "end_ms": 9180,
+            "confidence": 0.999930739402771,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " r",
+            "start_ms": 9360,
+            "end_ms": 9420,
+            "confidence": 0.9999110698699951,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ất",
+            "start_ms": 9420,
+            "end_ms": 9480,
+            "confidence": 0.9998838901519775,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " là",
+            "start_ms": 9540,
+            "end_ms": 9600,
+            "confidence": 0.9998522996902466,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " nhiều",
+            "start_ms": 9720,
+            "end_ms": 9780,
+            "confidence": 0.9988008737564087,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " những",
+            "start_ms": 10200,
+            "end_ms": 10260,
+            "confidence": 0.9998745918273926,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " người",
+            "start_ms": 10380,
+            "end_ms": 10440,
+            "confidence": 0.9997408986091614,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " qu",
+            "start_ms": 10680,
+            "end_ms": 10740,
+            "confidence": 0.9999529123306274,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "en",
+            "start_ms": 10740,
+            "end_ms": 10800,
+            "confidence": 0.9998552799224854,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 10920,
+            "end_ms": 10980,
+            "confidence": 0.9999567270278931,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ớ",
+            "start_ms": 11040,
+            "end_ms": 11100,
+            "confidence": 0.6511409282684326,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "i,",
+            "start_ms": 11220,
+            "end_ms": 11280,
+            "confidence": 0.9840829968452454,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " và",
+            "start_ms": 11820,
+            "end_ms": 11880,
+            "confidence": 0.9997007846832275,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " r",
+            "start_ms": 12600,
+            "end_ms": 12660,
+            "confidence": 0.9995397329330444,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ất",
+            "start_ms": 12660,
+            "end_ms": 12720,
+            "confidence": 0.9999831914901733,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " là",
+            "start_ms": 12720,
+            "end_ms": 12780,
+            "confidence": 0.9999924898147583,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " may",
+            "start_ms": 12900,
+            "end_ms": 12960,
+            "confidence": 0.9999755620956421,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " m",
+            "start_ms": 13080,
+            "end_ms": 13140,
+            "confidence": 0.9999730587005615,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ắ",
+            "start_ms": 13140,
+            "end_ms": 13200,
+            "confidence": 0.9999692440032959,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "n",
+            "start_ms": 13200,
+            "end_ms": 13260,
+            "confidence": 0.9992548823356628,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " khi",
+            "start_ms": 13440,
+            "end_ms": 13500,
+            "confidence": 0.9966784715652466,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mà",
+            "start_ms": 13620,
+            "end_ms": 13680,
+            "confidence": 0.9999674558639526,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " mình",
+            "start_ms": 14160,
+            "end_ms": 14220,
+            "confidence": 0.9999295473098755,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " qu",
+            "start_ms": 14460,
+            "end_ms": 14520,
+            "confidence": 0.9999827146530151,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "en",
+            "start_ms": 14520,
+            "end_ms": 14580,
+            "confidence": 0.9998241066932678,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " được",
+            "start_ms": 14700,
+            "end_ms": 14760,
+            "confidence": 0.9999668598175049,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " những",
+            "start_ms": 14820,
+            "end_ms": 14880,
+            "confidence": 0.9999731779098511,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " người",
+            "start_ms": 15000,
+            "end_ms": 15060,
+            "confidence": 0.9998109936714172,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": " t",
+            "start_ms": 15060,
+            "end_ms": 15120,
+            "confidence": 0.9999498724937439,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "ố",
+            "start_ms": 15120,
+            "end_ms": 15120,
+            "confidence": 0.9985646605491638,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        },
+        {
+            "text": "t.",
+            "start_ms": 15120,
+            "end_ms": 15120,
+            "confidence": 0.9998890161514282,
+            "speaker": "1",
+            "language": "vi",
+            "is_audio_event": null,
+            "translation_status": null
+        }
+    ]
+}

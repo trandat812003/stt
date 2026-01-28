@@ -7,16 +7,14 @@ import io, os
 import numpy as np
 from util.fillter_word_vi import check_text
 from util.save_file import save_file
-from util.process_row import process_row
+from util.process_row import process_row_with_file_audio
 
 
-PARQUET_DIR = Path("/media/trandat/DataVoice/LSVSC/data")
-OUT_DIR = Path("/media/trandat/Data/LSVSC/output")
+CSV_DIR = Path("/media/trandat/DataVoice/fleurs/data")
+OUT_DIR = Path("/media/trandat/DataVoice/fleurs/output")
 
-AUDIO_DIR = OUT_DIR / "audio"
-AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 FILES_PER_DIR = 10000
-parquet_files = sorted(PARQUET_DIR.glob(f"*.parquet"))
+csv_files = sorted(CSV_DIR.glob(f"*.tsv"))
 
 manifests = {
     "vi": [],
@@ -24,17 +22,17 @@ manifests = {
 }
 
 audio_name = 0
-for parquet_file in tqdm(parquet_files, desc="Process parquet"):
-    print(f"Processing {parquet_file.name}")
-    df = pd.read_parquet(parquet_file)
+for csv_file in tqdm(csv_files, desc="Process CSV"):
+    print(f"Processing {csv_file.name}")
+    df = pd.read_csv(csv_file, sep="\t")
 
     for _, row in df.iterrows():
-        result = process_row(row, audio_name, AUDIO_DIR, df.columns)
+        result = process_row_with_file_audio(row, audio_name, CSV_DIR / "audio" / csv_file.stem, df.columns)
 
         if result is None:
             continue
 
-        fname = parquet_file.name.lower()
+        fname = csv_file.name.lower()
         if "train" in fname:
             split = "train"
         elif "test" in fname:
@@ -58,6 +56,6 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
             manifests["cs"].append(entry)
 
 
-save_file(OUT_DIR, manifests, "lsvsc_{}.jsonl")
+save_file(OUT_DIR, manifests, "fleurs_{}.jsonl")
 
 print("done")

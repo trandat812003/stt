@@ -10,8 +10,8 @@ from util.save_file import save_file
 from util.process_row import process_row
 
 
-PARQUET_DIR = Path("/media/trandat/DataVoice/LSVSC/data")
-OUT_DIR = Path("/media/trandat/Data/LSVSC/output")
+PARQUET_DIR = Path("/media/trandat/DataVoice/ViToSA/data")
+OUT_DIR = Path("/media/trandat/Data/ViToSA/")
 
 AUDIO_DIR = OUT_DIR / "audio"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -29,6 +29,7 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
     df = pd.read_parquet(parquet_file)
 
     for _, row in df.iterrows():
+        # breakpoint()
         result = process_row(row, audio_name, AUDIO_DIR, df.columns)
 
         if result is None:
@@ -58,6 +59,6 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
             manifests["cs"].append(entry)
 
 
-save_file(OUT_DIR, manifests, "lsvsc_{}.jsonl")
+save_file(OUT_DIR, manifests, "vitosa_{}.jsonl")
 
 print("done")

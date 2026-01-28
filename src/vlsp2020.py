@@ -10,8 +10,8 @@ from util.save_file import save_file
 from util.process_row import process_row
 
 
-PARQUET_DIR = Path("/media/trandat/DataVoice/LSVSC/data")
-OUT_DIR = Path("/media/trandat/Data/LSVSC/output")
+PARQUET_DIR = Path("/media/trandat/DataVoice/vlsp2020/data")
+OUT_DIR = Path("/media/trandat/Data/vlsp2020/output")
 
 AUDIO_DIR = OUT_DIR / "audio"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -58,6 +58,6 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
             manifests["cs"].append(entry)
 
 
-save_file(OUT_DIR, manifests, "lsvsc_{}.jsonl")
+save_file(OUT_DIR, manifests, "vlsp2020_{}.jsonl")
 
 print("done")

@@ -6,12 +6,12 @@ import soundfile as sf
 import io, os
 import numpy as np
 from util.fillter_word_vi import check_text
-from util.save_file import save_file
+from util.save_file import save_file, save_manifest
 from util.process_row import process_row
 
 
-PARQUET_DIR = Path("/media/trandat/DataVoice/LSVSC/data")
-OUT_DIR = Path("/media/trandat/Data/LSVSC/output")
+PARQUET_DIR = Path("/media/trandat/DataVoice/phoaudiobook/data")
+OUT_DIR = Path("/media/trandat/Data/phoaudiobook/output")
 
 AUDIO_DIR = OUT_DIR / "audio"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -53,11 +53,13 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
             "split": split,
         })
         if check_text(text):
-            manifests["vi"].append(entry)
+            # manifests["vi"].append(entry)
+            save_manifest(entry, "phoaudiobook_vi.jsonl")
         else:
-            manifests["cs"].append(entry)
+            # manifests["cs"].append(entry)
+            save_manifest(entry, "phoaudiobook_cs.jsonl")
 
 
-save_file(OUT_DIR, manifests, "lsvsc_{}.jsonl")
+save_file(OUT_DIR, manifests, "phoaudiobook_{}.jsonl")
 
 print("done")

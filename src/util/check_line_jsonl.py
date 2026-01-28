@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from fillter_word_vi import _check_text
 
-CS_PATH = Path("/media/trandat/Data/ViMD/output/manifests/vimd_cs.jsonl")
+CS_PATH = Path("/media/trandat/Data/viet_bud500/output/manifests/vietbud500_cs.jsonl")
 TMP_PATH = Path("/media/trandat/Data/tmp.txt")
 
 unique_words = set()

@@ -6,6 +6,8 @@ import soundfile as sf
 import io, os
 import numpy as np
 from util.fillter_word_vi import check_text
+from util.save_file import save_file
+from util.process_row import process_row
 
 
 PARQUET_DIR = Path("/media/trandat/DataVoice/ViMD/data")
@@ -28,40 +30,10 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
     df = pd.read_parquet(parquet_file)
 
     for _, row in df.iterrows():
-        text = row["text"]
-        audio = row["audio"]
+        result = process_row(row, audio_name, AUDIO_DIR, df.columns)
 
-        if isinstance(audio, dict):
-            wav_bytes = audio["bytes"]
-            audio_path = audio["path"]
-            if audio_path is None:
-                audio_path = f"{audio_name}.wav"
-        elif isinstance(audio, (bytes, bytearray)):
-            wav_bytes = audio
-            audio_path = f"{audio_name}.wav"
-        else:
-            raise TypeError(f"Unknown audio type: {type(audio)}")
-        
-        waveform, sr = sf.read(io.BytesIO(wav_bytes))
-
-        if waveform.ndim == 1:
-            num_samples = waveform.shape[0]
-        else:
-            num_samples = waveform.shape[0]
-
-        duration = num_samples / sr
-
-        if waveform is None or len(waveform) == 0:
+        if result is None:
             continue
-
-        if np.isnan(waveform).any():
-            continue
-
-        subdir = f"{audio_name // FILES_PER_DIR:05d}"
-        audio_subdir = AUDIO_DIR / subdir
-        audio_subdir.mkdir(parents=True, exist_ok=True)
-
-        sf.write(audio_subdir / audio_path, waveform, sr)
 
         fname = parquet_file.name.lower()
         if "train" in fname:
@@ -71,15 +43,11 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
         else:
             split = "validate"
 
-        entry = {}
-        for col in df.columns:
-            if col in ["audio", "text", 'filename']:
-                continue
-            entry[col] = row[col]
+        entry, text, file_id, file_path, audio_name, duration, sr = result
 
         entry.update({
-            "file_id": os.path.splitext(row["filename"])[0],
-            "file_path": f"{subdir}/{audio_path}",
+            "file_id": file_id,
+            "file_path": file_path,
             "text": text,
             "sample_rate": sr,
             "duration": duration,
@@ -90,23 +58,7 @@ for parquet_file in tqdm(parquet_files, desc="Process parquet"):
         else:
             manifests["cs"].append(entry)
 
-        audio_name = audio_name + 1
 
-
-def save_manifest(entries, path):
-    with open(path, "w", encoding="utf-8") as f:
-        for e in entries:
-            f.write(json.dumps(e, ensure_ascii=False) + "\n")
-
-
-MANIFEST_DIR = OUT_DIR / "manifests"
-MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
-for split, entries in manifests.items():
-    if not entries:
-        continue
-
-    out_path = MANIFEST_DIR / f"vimd_{split}.jsonl"
-    save_manifest(entries, out_path)
-    print(f"Saved {len(entries)} entries to {out_path}")
+save_file(OUT_DIR, manifests, "vimd_{}.jsonl")
 
 print("done")
